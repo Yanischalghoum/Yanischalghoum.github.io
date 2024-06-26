@@ -1,0 +1,123 @@
+html {background-color: #1e3759;}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .GameNews1 {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+  }
+  
+  .TexteDroite {
+    position: absolute;
+    top: 50%;
+    left: 81%;
+    transform: translate(-50%, -50%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+  }
+
+  .image1 {border-radius: 3%;}
+
+  .rectangle1 {
+    width: 100%;
+    min-height: 400px;
+    margin-top: 1%;
+    background-color: #4f5a74;
+    align-content: center;
+    border-radius: 4dvb;
+    box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.532);
+  }
+
+  .JeuxPopulaire {
+    position:relative;
+    top: -17%;
+    left:2% ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+    color: white;
+  }
+
+  .rectangle2 {
+    margin-top: 2%;
+    width: 100%;
+    height: 400px;
+    background-color: #4f5a74;
+    align-content: center;
+    border-radius: 4dvb;
+    box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.532);
+  }
+
+  .JeuxAttendu {
+    position:relative;
+    top: -42%;
+    left: 2% ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+    color: white;
+  }
+
+  .rectangle3 {
+    margin-top: 2%;
+    width: 100%;
+    height: 400px;
+    background-color: #4f5a74;
+    align-content: center;
+    border-radius: 4dvb;
+    box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.532);
+  }
+
+  .JeuxJoués {
+    position:relative;
+    top: -42%;
+    left: 39% ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+    color: white;
+  }
+
+  .rectangle4 {
+    margin-top: 2%;
+    width: 100%;
+    height: 400px;
+    background-color: #4f5a74;
+    align-content: center;
+    border-radius: 4dvb;
+    box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.532);
+  }
+
+  .Avis {
+    position:relative;
+    top: -42%;
+    left: 2% ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+    color: white;
+  }
+
+  .imageCS {
+    width: 200px; height: 200px;
+  }
+
+  .imageFTN {
+    width: 200px; height: 200px;
+}
+
+.imageCOD {
+    width: 200px; height: 200px;
+  }
+
+  .imageVALO {
+    width: 200px; height: 200px;
+  }
+
+  .imageELDEN {
+    width: 200px; height: 200px;
+  }
+
+
