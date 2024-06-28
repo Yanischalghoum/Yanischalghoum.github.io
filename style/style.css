@@ -65,12 +65,28 @@ h4 { font-size: 1.5em; }
     text-align: center;
     color: white;
   }
-
-  /* .container2 {
+  
+  .menuburger {
+    width: 35px;
     display: inline-block;
     cursor: pointer;
+    position:absolute;
+    left: 1140px;
+    padding: 23px;
   }
   
+  .menu_rectangle {
+    display: block; 
+    width: 250px;
+    height: 100px;
+    position:absolute;
+    left: 940px;
+    bottom: 200px;
+    padding: 23px;
+    border-radius: 20px;
+    background-color: #2e3137c1;
+  }
+
   .bar1, .bar2, .bar3 {
     width: 35px;
     height: 5px;
@@ -87,7 +103,8 @@ h4 { font-size: 1.5em; }
   
   .change .bar3 {
     transform: translate(0, -11px) rotate(45deg);
-  } */
+  }
+
   
   .GameNews1 {
     position: absolute;
@@ -190,16 +207,21 @@ h4 { font-size: 1.5em; }
   .Fortnite2 {
     width: 220px;
     height: 120px;
-    position:relative; 
+    /* position:relative;  */
     border-radius: 20px;
     box-shadow: 5px 5px 60px rgba(0, 0, 0, 0.482);
+    transition-duration: 0.5s;
+  }
+
+  .Fortnite2:hover {
+    box-shadow: 5px 5px 60px white;
   }
 
   .Minecraft {
     width: 220px;
     height: 120px;
-    position:relative; 
-    left: 300px;
+    /* position:relative;  */
+    /* left: 300px; */
     border-radius: 20px;
     box-shadow: 5px 5px 60px rgba(0, 0, 0, 0.482);
   }
@@ -207,9 +229,19 @@ h4 { font-size: 1.5em; }
   .League_of_Legends {
     width: 220px;
     height: 120px;
-    position:relative; 
-    left: 600px;
-    top: 240px;
+    /* position:relative;  */
+    /* left: 600px; */
+    bottom: 240px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 60px rgba(0, 0, 0, 0.482);
+  }
+
+  .Roblox {
+    width: 220px;
+    height: 120px;
+    /* position:relative;  */
+    /* left: 900px; */
+    bottom: 240px;
     border-radius: 20px;
     box-shadow: 5px 5px 60px rgba(0, 0, 0, 0.482);
   }
@@ -253,3 +285,25 @@ h4 { font-size: 1.5em; }
     font-weight: bold;
     color: white;
   } 
+  .container-first-row{
+    display: flex;
+  }
+  .first-row{
+    display: flex;
+    width: 50%;
+  }
+  .container-two-row{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .two-row{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+  }
+
+  .textmod {
+    margin: 25px;
+    color: gainsboro;
+  }
+

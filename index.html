@@ -3,26 +3,23 @@
 <head>
     <link href="./style/style.css" rel="stylesheet" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
 </head>
 <body>
 
 
 <div class="container">
-        <img class="image1" src="assets/ghost-tsushima-embargo-dia-14-julio-1987101.jpg" alt="Image de couverture" style="width:100%">
-        <!-- <div class="container2" onclick="myFunction(this)">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-          </div>
-          
-          <script>
-          function myFunction(x) {
-            x.classList.toggle("change");
-          }
-          </script> -->
-        <h1 class="GameNews1">Game News</h1>
-        <h2 class="TexteDroite">TOUTE L'ACTU <br> Du jeu vidéo</h2>
+    <img class="image1" src="assets/ghost-tsushima-embargo-dia-14-julio-1987101.jpg" alt="Image de couverture" style="width:100%">
+    <div class="menuburger" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+    <h1 class="GameNews1">Game News</h1>
+    <h2 class="TexteDroite">TOUTE L'ACTU <br> Du jeu vidéo</h2>
 </div>
+
+<div class="menu_rectangle"></div>
       
 
 <div class="rectangle"> 
@@ -97,9 +94,39 @@
 
 <div class="rectangle"> 
     <div class="JeuxJoués">Jeux les plus joués</div>
-    <img class="Fortnite2" src="assets/Fortnite2.png">
-    <img class="Minecraft" src="assets/Minecraft.png">
-    <img class="League_of_Legends" src="assets/League of Legends.png">
+    <div class="container-first-row">
+        <div class="first-row">
+            <a
+                href="https://www.fortnite.com/" target="_blank">
+                <img class="Fortnite2" src="assets/Fortnite2.png">
+            </a>
+            <p class="textmod">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti facere consectetur, tempore pariatur architecto vel.Aliquid, obcaecati distinctio. Esse dicta magni sapiente reprehenderit voluptas culpa quis rerum debitis voluptate ullam? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos sint et quibusdam magni, maiores eligendi numquam. Illo, deleniti nihil? Dicta vero consequuntur architecto error incidunt facere fugiat tempore repudiandae illum!</p>
+        </div>
+        <div class="first-row">
+            <a  href="https://www.minecraft.net/fr-fr" target="_blank">
+                <img class="Minecraft" src="assets/Minecraft.png">
+            </a>
+            <p class="textmod">TEXT Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ipsam tempora accusamus maxime accusantium, obcaecati vitae! Veniam, minima! Deleniti unde beatae, totam fugit quod eos deserunt quae nam magni magnam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor non et voluptas dolorum dolore delectus fuga laborum, nobis provident molestiae saepe fugit labore quaerat placeat eveniet cumque ipsum sapiente ratione?</p>
+        </div>
+    </div>
+    <div class="container-two-row">
+        <div class="two-row">
+            <p class="textmod">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quibusdam adipisci praesentium, quos fugiat accusamus est sapiente ratione. Adipisci cumque ad nulla quas sunt quae veniam ratione temporibus illo similique. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor neque consequatur exercitationem impedit repellat assumenda repellendus praesentium libero fugiat, commodi eum laborum, cupiditate rerum ipsam, voluptatibus ab sapiente? Unde, culpa?</p>
+            <a  href="https://www.leagueoflegends.com/fr-fr/" target="_blank">
+                <img class="League_of_Legends" src="assets/League of Legends.png">
+            </a>
+        </div>
+        <div class="two-row">
+            <div>
+                <p class="textmod">consectetur adipisicing elit. Deleniti facere consectetur, tempore pariatur architecto vel.Aliquid, obcaecati distinctio. Esse dicta magni sapiente reprehenderit voluptas culpa quis rerum debitis voluptate ullam? consectetur adipisicing elit. Deleniti facere consectetur, consectetur adipisicing elit. Deleniti facere consectetur, consectetur adipisicing elit. Deleniti facere consectetur, consectetur adipisicing elit. Deleniti facere consectetur, consectetur adipisicing elit. Deleniti facere consectetur, consectetur adipisicing elit. Deleniti facere consectetur,
+                </p>
+            </div>
+            <a  href="https://www.roblox.com/fr">
+                <img class="Roblox" src="assets/Roblox.png"> 
+            </a>
+        </div>
+    </div>
+    
 </div>
 
 <div class="rectangle"> 
@@ -109,4 +136,12 @@
 <footer> RESEAU SOCIAUX</footer>
     
 </body>
+<script>
+    function myFunction(x) {
+    x.classList.toggle("change");
+    const menu = document.querySelector(".menu_rectangle");
+    const menuStyle = menu.style;
+    console.log(menuStyle);
+    }
+</script>
 </html>
